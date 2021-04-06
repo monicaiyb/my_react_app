@@ -1,28 +1,21 @@
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import header from './components/Header.js'
-import Header from './components/Header.js';
+import Header from './components/Header'
+import Message from './Message';
 
 function App() {
   return (
-         
-    <div id="root">
-      <div className="myReactApp">
-        {/* <div>
-          <header>
-            <h1>Hello, welcome to my first react app</h1>
-          </header>
-        </div> */}
-        <Header title='Hello, welcome to my first react app'/>
-
-      </div>
-      
-      
-    </div>
- 
-
-      );
-  
+    
+    <Message />
+    );
 }
-
+// class App extends Component {
+ 
+//   render() {
+//   return (
+//   <Message />
+//   );
+//   }
+//  }
 export default App;
